@@ -1,0 +1,170 @@
+PARTE 1 {
+
+O que é 
+RAD - Rapid Application Development?
+
+	> O RAD ou Desenvolvimento Rápido de Aplicação, é um modelo de processo de desenvolvimento de software INCREMENTAL que foi registrado por James Martin em 1991. 	Projetado para substituir as tradicionais técnicas de desenvolvimento, como o modelo cascata
+	Nos anos 80 os trabalhos de Barry Boehm (modelo de processo em espiral) e Tom Gilb (modelo de processo evolucionário) serviram de base para uma metodologia chamada de Rapid Iterative Production Prototyping (RIPP) criada por Scott Shultz. Então James Martin estendeu o RIPP agregando valores de outros processos tornando-o maior e mais formal sendo assim denominado de RAD, que foi finalmente formalizado em 1991 com a publicação de um livro.
+
+	> Um tipo de metodologia mais agil para potencializar o desempenho dos profissionais envolvidos em um projeto.
+
+}
+
+PERTE 2 {
+
+	> Uma das características do RAD é o sistema ser dividido em módulos, tomando por base a funcionalidade. Tendo os incrementos definidos, a cada ciclo é acrescido de novas funcionalidades ou até mesmo modificações, caso seja necessário. Ele se destaca por essa maleabilidade de adaptação dos processos e a capacidade de se manter em constante evolução.
+	Um dos princípios do RAD é "Todas as mudanças durante o desenvolvimento são reversíveis".
+
+O processo consiste basicamente em:
+
+	> Modelagem do negócio:
+	A primeira etapa do RAD é a modelagem do negócio. De uma forma simples, podemos dizer que ela é a fase de análise e negociação do projeto, na qual são definidos o escopo e os requisitos da aplicação.
+
+Nessa fase, é feita a estruturação do fluxo de informações entre as funções do negócio, o que garante uma visão dos processos que serão suportados pelo software. A partir disso, pode-se traçar o plano de trabalho da equipe de desenvolvimento.
+
+	> Modelagem dos dados:
+	A segunda etapa é a modela de dados. Basicamente, essa parte trabalha com a estruturação dos dados do sistema. Ou seja, após analisar o fluxo de informações obtido na fase anterior, a equipe pode determinar quais são os objetos de dados cruciais para o negócio, separando-os em grupos de acordo com sua utilidade.
+
+Nesse momento, também é feita a análise da composição dos objetos de dados, das relações estabelecidas entre eles e do relacionamento que cada um tem com os processos que vão manipulá-los.
+
+	> Modelagem do processo:
+	Nessa etapa do RAD, os objetos de dados definidos na fase anterior são convertidos em informações necessárias para montar o fluxo de implementação das funções do negócio. Durante o percurso, otimizações e mudanças nos objetos de dados também podem ser feitas.
+
+No mais, ainda são estruturadas as regras que vão delimitar a modificação, recuperação, descarte e adição de objetos ao sistema.
+
+}
+
+PARTE 3 {
+
+	> Geração da aplicação:
+	Essa é etapa em que todas as informações coletadas vão, de fato, serem transformadas em código para criar um protótipo testável do sistema. Como o RAD trabalha a ideia do reaproveitamento, sempre que possível a aplicação utiliza componentes de programas já existentes.
+
+Quando não há essa possibilidade, são criados componentes que poderão ser utilizados em outras partes do sistema. Além de que, para facilitar o desenvolvimento, geralmente são usadas ferramentas automatizadas nessa fase.
+
+Ex: Clarion, Delphi, Visual Basic, Asp.net, NetBeans, Eclipse entre outras...
+
+(Outras Ferramentas RAD = Erwin, CASE tools, Rational Rose, Visio)
+
+	> Teste e Modificação:
+	Enfim, cada protótipo é testado separadamente, o que reduz consideravelmente o tempo de teste global. Além do mais, por se tratar de um processo de desenvolvimento iterativo que conta com vários componentes reutilizados que já foram testados, é possível testar apenas o que foi criado no ciclo.
+
+
+Segundo Stephen E. Cross Diretor do SEI - Software Engineering Institute da Carneggie Mellon, uma maneira de abordar o RAD de forma mais eficiente é dividi-lo em 6 passos:
+
+	> Projeto e análise baseado no cenário
+
+	> Projeto e análise de Arquitetura
+
+	> Especificação de Componentes com o máximo de reúso
+
+	> Desenvolvimento rápido dos módulos remanescentes
+
+	> Testes freqüentes com o usuário final
+
+	> Campo com ferramentas de suporte para permitir a evolução
+
+A proposta de Stephen é disciplinar o RAD, que é muitas vezes criticado por sua suposta informalidade, de forma a conseguir até mesmo níveis do processo Modelo de Maturidade em Capacitação (CMM) para melhorar e formalizar ainda mais o processo.
+
+Assim, aplicando o teste individual em cada componente, consegue-se identificar as melhorias e modificações que precisam ser feitas para atingir a construção de um produto mais eficaz.
+
+(De certa, na vida real, o grande parte de um conceito de processo agil pode ser aplicado, porém é adapitado à realidade da empresa).
+
+}
+		
+PARTE 4 {
+
+	> Vantagens:
+	.Economia de tempo
+	.Progresso mensurável
+	.Trabalho com modelos
+	.Integração mais rápida de sistemas
+	.Feedback constante
+	.Oferece mais flexibilidade em relação às mudanças de necessidades;
+	.O projeto pode ser dividido em tarefas menores e mais gerenciáveis;
+	.Garante ciclos de desenvolvimento curtos que, geralmente, variam entre 60 a 90 dias;
+	.Como o RAD enfatiza o uso de protótipos, é possível visualizar, testar e modificar o sistema mais rapidamente.
+	.Cada função principal pode ser direcionada para a uma equipe RAD separada e então integrada a formar um todo;
+	.Criação e reutilização de componentes;
+	.Usado principalmente para aplicações de sistemas de informações;
+	.Desenvolvimento é conduzido em um nível mais alto de abstração;
+	.Protótipagem
+	.Envolvimento maior do usuário;
+	.Provável custo reduzido(tempo é dinheiro e também devido ao reúso);
+	.Aparência padronizada (As APIs e outros componentes reutilizáveis permitem uma aparência consistente).
+
+	> Desvantagens:
+	.Se uma aplicação não puder ser modularizada de modo que cada função principal seja completada em menos de 3 meses, não é aconselhável o uso do RAD;
+	.Para projetos grandes (mas escaláveis) o RAD exige recursos humanos suficientes para criar o número correto de equipes, isso implica um alto custo com a equipe;
+	.O envolvimento com o usuário tem que ser ativo;
+	.Comprometimento da equipe do projeto;
+	.O RAD não é aconselhável quando os riscos técnicos são altos e não é indicada quando se está testando novas tecnologias ou quando o novo software exige alto grau de interoperabilidade com programas de computador existentes. Falta de prazo pode implicar qualidade reduzida, e há necessidade de habilidade maior dos desenvolvedores, e suporte maior da gerência e dos clientes.
+Quando não se tem equipe suficiente para suprir essa agilidade (equipe suficiente para se dividir cada função). E o tempo que se mantém com o cliente é muito curto.
+	.Desenvolver pode economizar recursos se comparado a comprar;
+	.Custo do conjunto de ferramentas e hardware para rodar a aplicação;
+	.Mais difícil de acompanhar o projeto(pois não existe os marcos clássicos);
+	.Menos eficientes;
+	.Perda de precisão científica (falta de métodos formais);
+	.Pode acidentalmente levar ao retorno das práticas caóticas no desenvolvimento;
+	.Funções reduzidas (reúso, "timeboxing");
+	.Funções desnecessárias (reúso de componentes);
+	.Problemas legais;
+	.Requisitos podem não se encaixar (conflitos entre desenvolvedores e clientes)
+	.Padronização (aparência diferente entre os módulos e componentes)
+	.Sucessos anteriores são difíceis de se reproduzir
+
+}
+
+PARTE 5 {
+
+	> É apropriado quando?
+	.A aplicação é do tipo "stand alone";
+	.Pode-se fazer uso de classes pré-existentes (APIs);
+	.A performance não é o mais importante;
+	.A distribuição do produto é pequena;
+	.O âmbito do projeto é restrito;
+	.O sistema pode ser dividido em vários módulos independentes;
+	.A tecnologia necessária tem mais de um ano de existência.
+
+	> Deve ser evitado quando?
+	.A aplicação precisa interagir com outros programas;
+	.Existem poucos plugins e componentes disponíveis;
+	.Performance é essencial;
+	.O desenvolvimento não pode tirar vantagem de ferramentas de alto nível;
+	.A distribuição do produto será em grande escala;
+	.Para se construir sistemas operacionais (confiabilidade exigida alta demais)
+	.Jogos de computador (performance exigida muito alta)
+	.Riscos tecnológicos muito altos devido a tecnologia ter sido recém lançada;
+	.O sistema não pode ser modularizado
+
+}
+
+PARTE 6 {
+
+	RAD vs. SCRUM
+	> Diferentemente de outras metodologias como, por exemplo, o Scrum (metodologia muito próxima a ele), o RAD não define papéis específicos a serem desempenhados. Ele somente requisita a presença de uma comunicação aberta e eficiente entre os envolvidos no projeto. Seu intuito é uma entrega rápida, o que dependendo do tamanho do projeto pode ser prejudicial. O tempo que se mantém com o cliente é muito curto.
+		RAD VS. Kanban
+	>Apesar de não ser propriamente uma metodologia, o Kanban se assemelha ao RAD no sentido
+	de proporcionar o acompanhamento constante do fluxo de produção, melhorando a agilidade.
+	 Também não define em muito detalhe cada etapa
+	nem define funções.
+
+	RAD VS. Lean
+
+	>Está no polo oposto da metodologia RAD, pois o foco é o valor (qualidade) do produto final. O processo se inicia
+	com a definição do valor de acordo com o cliente, a definição do fluxo de trabalho de forma que atenda a esse valor
+	e então a implementação de um fluxo contínuo, que, diferente do RAD, não admite interrupções e alterações durante o
+	processo de desenvolvimento.
+
+	RAD VS. Smart
+	
+	>Já esta metodologia foca no processo de desenvolvimento em si, estabelecendo metas rígidas, bem definidas e estudadas
+	que devem ser atendidas para que o resultado final seja atingido. Não estabelece a necessidade de uma entrega rápida,
+	podendo definir metas de longo, médio ou curto prazo. O necessário aqui é definir bem a meta, seu nível de realismo,
+	e as etapas para sua realização.
+
+}
+
+***
+fontes: https://pt.wikipedia.org/wiki/Desenvolvimento_r%C3%A1pido_de_aplica%C3%A7%C3%B5es
+
+	
